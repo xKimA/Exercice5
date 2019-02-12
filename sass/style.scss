@@ -38,16 +38,20 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
-@import "typography/typography";
+@import "typography/_typography";
 
 /*--------------------------------------------------------------
 
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
-@import "navigation/navigation";  
+@import "navigation/_navigation";  
+
+/*--------------------------------------------------------------
+#animation */
+@import "animation/_animation";
 
 /*--------------------------------------------------------------
 # layout
 --------------------------------------------------------------*/
-@import "layout/layout"; 
+@import "layout/_layout"; 
