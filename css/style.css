@@ -524,25 +524,25 @@ a:hover, a:active {
 }
 
 .rectangle:nth-child(1) {
-  background-color: #e54792;
+  background-color: #4BC6B9;
   -webkit-animation: anim1 0.5s;
           animation: anim1 0.5s;
 }
 
 .rectangle:nth-child(2) {
-  background-color: #f59723;
+  background-color: #EAD54B;
   -webkit-animation: anim2 0.5s 0.5s backwards;
           animation: anim2 0.5s 0.5s backwards;
 }
 
 .rectangle:nth-child(3) {
-  background-color: #58b34c;
+  background-color: #172A3A;
   -webkit-animation: anim3 0.5s 1s backwards;
           animation: anim3 0.5s 1s backwards;
 }
 
 .rectangle:nth-child(4) {
-  background-color: #006d98;
+  background-color: #508991;
   font-size: 1em;
   /* max-height : 20vh;*/
   -webkit-animation: animGo 1s 1.5s backwards;
@@ -874,14 +874,21 @@ body {
   display: grid;
   width: 100vw;
   grid-gap: 1em;
-      grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer";
+      grid-template-areas: "header"
+ "sidebar"
+ "content"
+ "sidebar2"
+ "footer";
 }
 
 @media only screen and (min-width: 500px) {
   .conteneur {
     -ms-grid-columns: 20% auto;
         grid-template-columns: 20% auto;
-        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
+        grid-template-areas: "header   header"
+ "sidebar  content"
+ "sidebar2 sidebar2"
+ "footer   footer";
     min-width: 500px;
   }
 }
@@ -932,7 +939,9 @@ body {
     grid-gap: 20px;
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
-        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
+        grid-template-areas: "header  header  header"
+ "sidebar content sidebar2"
+ "footer  footer  footer";
     max-width: 100%;
   }
 }
